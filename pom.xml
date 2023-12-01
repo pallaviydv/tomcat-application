@@ -10,7 +10,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <java.version>11</java.version>
+    <java.version>20</java.version>
     <maven.compiler.release>${java.version}</maven.compiler.release>
   </properties>
 
@@ -46,7 +46,7 @@
         <version>1.9.10</version>
         <configuration>
           <container>
-            <containerId>tomcat10x</containerId>
+            <containerId>tomcat9x</containerId>
             <type>embedded</type>
           </container>
         </configuration>
@@ -64,7 +64,7 @@
           <runtime>
             <os>Linux</os>
             <javaVersion>Java 20</javaVersion>
-            <webContainer>Tomcat 10.0</webContainer>
+            <webContainer>Tomcat9x</webContainer>
           </runtime>
           <deployment>
             <resources>
